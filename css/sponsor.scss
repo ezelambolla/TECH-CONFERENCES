@@ -1,0 +1,45 @@
+@import'./style.scss';
+
+
+.sponsor-cont{
+    width: 60%;
+    height: 90vh;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left:130px;
+    box-shadow: black 5px 5px 10px;
+    padding:10px;
+    .text-princ{
+        color:white;
+        font-size:20px;
+        margin:2px;
+        font-weight: 100;
+        h1{
+            font-weight: 100;
+            font-size: 30px;
+        }
+    }.cont-gnral{
+       margin-top:60px;
+   .sponsor-img{
+                margin-top:5px ;
+                height: 20.5vh;
+                width: 100%;
+        .img-cont{
+            img{
+                width: 80px;
+                height: 80px;
+                object-fit: contain;
+                margin:5px;
+                margin-top:15px;
+                border: solid 2px white;
+                background:white
+            }h1{
+                color: white;
+                font-size: 40px;
+                font-weight: 400;
+                padding: 1px;
+                }
+            }
+        } 
+    } 
+}

@@ -1,0 +1,52 @@
+@import './style.scss';
+
+.oradores {
+    width: 60%;
+  height: 100vh;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left:130px;
+
+    .contenedor-gnral{
+        box-shadow: black 5px 5px 10px;
+        height: 28.5vh;
+        width: 100%;
+        margin-top:30px;
+        .contenedor-img{
+            border-radius: 50%;
+            border:solid 2px white;
+            height: 250px;
+            width: 250px;  
+            float: left;
+            margin-top: 15px;
+            margin-left: 100px;
+            background: url(https://avatarfiles.alphacoders.com/112/112526.png);
+        }.contenedor-texto{
+            float: right;
+            margin-top:10px;
+            color: white;
+            font-size: 30px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+            margin-right: 40%;
+            ol{
+                margin-top: 25px;
+                li{
+                    list-style: none;
+                }
+            }.contenedor-fil{
+                ol{
+                    li{
+                        list-style: none;
+                        display: inline-block;
+                        padding: 10px;
+                        margin:2px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

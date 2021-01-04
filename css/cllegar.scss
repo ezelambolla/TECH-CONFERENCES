@@ -1,0 +1,29 @@
+@import'./style.scss';
+
+
+
+
+.cont-cllegar{
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top:100px;
+    .cont-texto{
+        color: white;
+        font-size: 20px;
+        font-family: 'Roboto' sans-serif;
+        width: 70rem;
+            p{
+                text-align: justify;
+                font-weight: 100;
+            }h1{
+                text-align: center;
+                font-weight: 100;
+                padding: 15px;
+                font-size: 30px;
+            }
+    }.cont-map{
+        padding:20px;
+    }
+}
